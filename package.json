@@ -1,0 +1,34 @@
+{
+  "name": "plant-care",
+  "version": "1.0.0",
+  "description": "An app for learning how not to kill your plant",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockwoni/plant-care.git"
+  },
+  "author": "Major Cache",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lockwoni/plant-care/issues"
+  },
+  "homepage": "https://github.com/lockwoni/plant-care#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^7.4.1",
+    "method-override": "^2.3.8",
+    "mocha": "^3.4.1",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  }
+}
